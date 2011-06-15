@@ -1,0 +1,10 @@
+<%= javascript_include_tag 'paginate' %>
+
+<h1>Listing projects</h1>
+
+<%= link_to 'New Project', new_project_path %>
+
+<div id="projects">
+  <%= render 'project' %>
+</div>
+

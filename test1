@@ -1,0 +1,560 @@
+prathamesh-rv409-rv509
+    description: Laptop
+    version: Not Applicable
+    width: 32 bits
+    capabilities: smbios-2.6 dmi-2.6 smp-1.4 smp
+    configuration: administrator_password=disabled boot=normal chassis=laptop cpus=2 frontpanel_password=unknown keyboard_password=unknown power-on_password=disabled uuid=E084F6B5-DB1D-B211-8000-973FB098411C
+  *-core
+       description: Motherboard
+       physical id: 0
+     *-firmware
+          description: BIOS
+          vendor: Phoenix Technologies Ltd.
+          physical id: 0
+          version: 02PB.M003.20110107.XW
+          date: 01/07/2011
+          size: 118KiB
+          capacity: 4032KiB
+          capabilities: isa pci pcmcia pnp upgrade shadowing escd cdboot acpi usb agp biosbootspecification
+     *-board UNCLAIMED
+          description: Motherboard
+          product: RV409/RV509
+          vendor: SAMSUNG ELECTRONICS CO., LTD.
+          physical id: 2
+          version: Not Applicable
+          serial: 123490EN400015
+          slot: Not Applicable
+     *-cpu:0
+          description: CPU
+          product: Intel(R) Core(TM) i3 CPU       M 380  @ 2.53GHz
+          vendor: Intel Corp.
+          physical id: 4
+          bus info: cpu@0
+          version: 6.5.5
+          serial: 0002-0655-0000-0000-0000-0000
+          slot: CPU 1
+          size: 933MHz
+          capacity: 3200MHz
+          width: 64 bits
+          clock: 133MHz
+          capabilities: x86-64 boot fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe nx rdtscp constant_tsc arch_perfmon pebs bts xtopology nonstop_tsc aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm sse4_1 sse4_2 popcnt lahf_lm arat tpr_shadow vnmi flexpriority ept vpid cpufreq
+          configuration: cores=2 enabledcores=2 id=5 threads=4
+        *-cache:0
+             description: L1 cache
+             physical id: 5
+             slot: L1 Cache
+             size: 32KiB
+             capacity: 32KiB
+             capabilities: asynchronous internal write-through data
+        *-cache:1
+             description: L2 cache
+             physical id: 6
+             slot: L2 Cache
+             size: 256KiB
+             capacity: 1MiB
+             capabilities: burst internal write-through unified
+        *-cache:2
+             description: L3 cache
+             physical id: 7
+             slot: L3 Cache
+             size: 3MiB
+             capacity: 8MiB
+             capabilities: burst internal write-back
+        *-logicalcpu:0
+             description: Logical CPU
+             physical id: 5.1
+             width: 64 bits
+             capabilities: logical
+        *-logicalcpu:1
+             description: Logical CPU
+             physical id: 5.2
+             width: 64 bits
+             capabilities: logical
+        *-logicalcpu:2
+             description: Logical CPU
+             physical id: 5.3
+             width: 64 bits
+             capabilities: logical
+        *-logicalcpu:3
+             description: Logical CPU
+             physical id: 5.4
+             width: 64 bits
+             capabilities: logical
+        *-logicalcpu:4
+             description: Logical CPU
+             physical id: 5.5
+             width: 64 bits
+             capabilities: logical
+        *-logicalcpu:5
+             description: Logical CPU
+             physical id: 5.6
+             width: 64 bits
+             capabilities: logical
+        *-logicalcpu:6
+             description: Logical CPU
+             physical id: 5.7
+             width: 64 bits
+             capabilities: logical
+        *-logicalcpu:7
+             description: Logical CPU
+             physical id: 5.8
+             width: 64 bits
+             capabilities: logical
+        *-logicalcpu:8
+             description: Logical CPU
+             physical id: 5.9
+             width: 64 bits
+             capabilities: logical
+        *-logicalcpu:9
+             description: Logical CPU
+             physical id: 5.a
+             width: 64 bits
+             capabilities: logical
+        *-logicalcpu:10
+             description: Logical CPU
+             physical id: 5.b
+             width: 64 bits
+             capabilities: logical
+        *-logicalcpu:11
+             description: Logical CPU
+             physical id: 5.c
+             width: 64 bits
+             capabilities: logical
+        *-logicalcpu:12
+             description: Logical CPU
+             physical id: 5.d
+             width: 64 bits
+             capabilities: logical
+        *-logicalcpu:13
+             description: Logical CPU
+             physical id: 5.e
+             width: 64 bits
+             capabilities: logical
+        *-logicalcpu:14
+             description: Logical CPU
+             physical id: 5.f
+             width: 64 bits
+             capabilities: logical
+        *-logicalcpu:15
+             description: Logical CPU
+             physical id: 5.10
+             width: 64 bits
+             capabilities: logical
+     *-memory
+          description: System Memory
+          physical id: 18
+          slot: System board or motherboard
+          size: 2GiB
+        *-bank:0
+             description: SODIMM Synchronous [empty]
+             physical id: 0
+             slot: M1
+        *-bank:1
+             description: SODIMM DDR3 Synchronous 1334 MHz (0.7 ns)
+             product: NT2GC64B88B0NS-CG
+             vendor: Nanya Technology
+             physical id: 1
+             serial: 8FD52622
+             slot: M2
+             size: 2GiB
+             width: 64 bits
+             clock: 1334MHz (0.7ns)
+        *-bank:2
+             description: SODIMM DDR3 Synchronous [empty]
+             physical id: 2
+             slot: M3
+        *-bank:3
+             description: SODIMM DDR3 Synchronous [empty]
+             physical id: 3
+             slot: M4
+     *-cpu:1
+          physical id: 1
+          bus info: cpu@1
+          version: 6.5.5
+          serial: 0002-0655-0000-0000-0000-0000
+          size: 933MHz
+          capacity: 933MHz
+          capabilities: vmx ht cpufreq
+          configuration: id=5
+        *-logicalcpu:0
+             description: Logical CPU
+             physical id: 5.1
+             capabilities: logical
+        *-logicalcpu:1
+             description: Logical CPU
+             physical id: 5.2
+             capabilities: logical
+        *-logicalcpu:2
+             description: Logical CPU
+             physical id: 5.3
+             capabilities: logical
+        *-logicalcpu:3
+             description: Logical CPU
+             physical id: 5.4
+             capabilities: logical
+        *-logicalcpu:4
+             description: Logical CPU
+             physical id: 5.5
+             capabilities: logical
+        *-logicalcpu:5
+             description: Logical CPU
+             physical id: 5.6
+             capabilities: logical
+        *-logicalcpu:6
+             description: Logical CPU
+             physical id: 5.7
+             capabilities: logical
+        *-logicalcpu:7
+             description: Logical CPU
+             physical id: 5.8
+             capabilities: logical
+        *-logicalcpu:8
+             description: Logical CPU
+             physical id: 5.9
+             capabilities: logical
+        *-logicalcpu:9
+             description: Logical CPU
+             physical id: 5.a
+             capabilities: logical
+        *-logicalcpu:10
+             description: Logical CPU
+             physical id: 5.b
+             capabilities: logical
+        *-logicalcpu:11
+             description: Logical CPU
+             physical id: 5.c
+             capabilities: logical
+        *-logicalcpu:12
+             description: Logical CPU
+             physical id: 5.d
+             capabilities: logical
+        *-logicalcpu:13
+             description: Logical CPU
+             physical id: 5.e
+             capabilities: logical
+        *-logicalcpu:14
+             description: Logical CPU
+             physical id: 5.f
+             capabilities: logical
+        *-logicalcpu:15
+             description: Logical CPU
+             physical id: 5.10
+             capabilities: logical
+     *-pci:0
+          description: Host bridge
+          product: Core Processor DRAM Controller
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 02
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=agpgart-intel
+          resources: irq:0
+        *-display
+             description: VGA compatible controller
+             product: Core Processor Integrated Graphics Controller
+             vendor: Intel Corporation
+             physical id: 2
+             bus info: pci@0000:00:02.0
+             version: 02
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msi pm vga_controller bus_master cap_list rom
+             configuration: driver=i915 latency=0
+             resources: irq:42 memory:fc000000-fc3fffff memory:e0000000-efffffff ioport:1800(size=8)
+        *-communication UNCLAIMED
+             description: Communication controller
+             product: 5 Series/3400 Series Chipset HECI Controller
+             vendor: Intel Corporation
+             physical id: 16
+             bus info: pci@0000:00:16.0
+             version: 06
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi bus_master cap_list
+             configuration: latency=0
+             resources: memory:fc805800-fc80580f
+        *-usb:0
+             description: USB Controller
+             product: 5 Series/3400 Series Chipset USB2 Enhanced Host Controller
+             vendor: Intel Corporation
+             physical id: 1a
+             bus info: pci@0000:00:1a.0
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm debug ehci bus_master cap_list
+             configuration: driver=ehci_hcd latency=0
+             resources: irq:16 memory:fc806000-fc8063ff
+        *-multimedia
+             description: Audio device
+             product: 5 Series/3400 Series Chipset High Definition Audio
+             vendor: Intel Corporation
+             physical id: 1b
+             bus info: pci@0000:00:1b.0
+             version: 05
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi pciexpress bus_master cap_list
+             configuration: driver=HDA Intel latency=0
+             resources: irq:43 memory:fc800000-fc803fff
+        *-pci:0
+             description: PCI bridge
+             product: 5 Series/3400 Series Chipset PCI Express Root Port 1
+             vendor: Intel Corporation
+             physical id: 1c
+             bus info: pci@0000:00:1c.0
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:16 ioport:2000(size=4096) memory:fc500000-fc5fffff ioport:fcc00000(size=2097152)
+           *-network DISABLED
+                description: Wireless interface
+                product: BCM4313 802.11b/g/n Wireless LAN Controller
+                vendor: Broadcom Corporation
+                physical id: 0
+                bus info: pci@0000:02:00.0
+                logical name: eth1
+                version: 01
+                serial: 4c:ed:de:94:78:36
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress bus_master cap_list ethernet physical wireless
+                configuration: broadcast=yes driver=wl0 driverversion=5.100.82.38 latency=0 multicast=yes wireless=IEEE 802.11
+                resources: irq:16 memory:fc500000-fc503fff
+        *-pci:1
+             description: PCI bridge
+             product: 5 Series/3400 Series Chipset PCI Express Root Port 4
+             vendor: Intel Corporation
+             physical id: 1c.3
+             bus info: pci@0000:00:1c.3
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:19 ioport:3000(size=4096) memory:fc400000-fc4fffff ioport:fc900000(size=3145728)
+           *-network
+                description: Ethernet interface
+                product: RTL8111/8168B PCI Express Gigabit Ethernet controller
+                vendor: Realtek Semiconductor Co., Ltd.
+                physical id: 0
+                bus info: pci@0000:04:00.0
+                logical name: eth0
+                version: 06
+                serial: e8:11:32:1f:46:49
+                size: 1Gbit/s
+                capacity: 1Gbit/s
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress msix vpd bus_master cap_list ethernet physical tp mii 10bt 10bt-fd 100bt 100bt-fd 1000bt 1000bt-fd autonegotiation
+                configuration: autonegotiation=on broadcast=yes driver=r8169 driverversion=2.3LK-NAPI duplex=full ip=172.16.0.8 latency=0 link=yes multicast=yes port=MII speed=1Gbit/s
+                resources: irq:40 ioport:3000(size=256) memory:fc900000-fc900fff memory:fca04000-fca07fff
+        *-usb:1
+             description: USB Controller
+             product: 5 Series/3400 Series Chipset USB2 Enhanced Host Controller
+             vendor: Intel Corporation
+             physical id: 1d
+             bus info: pci@0000:00:1d.0
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm debug ehci bus_master cap_list
+             configuration: driver=ehci_hcd latency=0
+             resources: irq:23 memory:fc806400-fc8067ff
+        *-pci:2
+             description: PCI bridge
+             product: 82801 Mobile PCI Bridge
+             vendor: Intel Corporation
+             physical id: 1e
+             bus info: pci@0000:00:1e.0
+             version: a5
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci subtractive_decode bus_master cap_list
+        *-isa
+             description: ISA bridge
+             product: Mobile 5 Series Chipset LPC Interface Controller
+             vendor: Intel Corporation
+             physical id: 1f
+             bus info: pci@0000:00:1f.0
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa bus_master cap_list
+             configuration: latency=0
+        *-storage
+             description: SATA controller
+             product: 5 Series/3400 Series Chipset 4 port SATA AHCI Controller
+             vendor: Intel Corporation
+             physical id: 1f.2
+             bus info: pci@0000:00:1f.2
+             logical name: scsi0
+             logical name: scsi1
+             version: 05
+             width: 32 bits
+             clock: 66MHz
+             capabilities: storage msi pm ahci_1.0 bus_master cap_list emulated
+             configuration: driver=ahci latency=0
+             resources: irq:41 ioport:1818(size=8) ioport:180c(size=4) ioport:1810(size=8) ioport:1808(size=4) ioport:1820(size=32) memory:fc805000-fc8057ff
+           *-disk
+                description: ATA Disk
+                product: SAMSUNG HM321HI
+                physical id: 0
+                bus info: scsi@0:0.0.0
+                logical name: /dev/sda
+                version: 2AJ1
+                serial: S26VJ9DB120027
+                size: 298GiB (320GB)
+                capabilities: partitioned partitioned:dos
+                configuration: ansiversion=5 signature=a33b6c03
+              *-volume:0
+                   description: Windows NTFS volume
+                   physical id: 1
+                   bus info: scsi@0:0.0.0,1
+                   logical name: /dev/sda1
+                   version: 3.1
+                   serial: 9c63d86a-a1d2-8746-82c6-2debead41bc3
+                   size: 74GiB
+                   capacity: 74GiB
+                   capabilities: primary bootable ntfs initialized
+                   configuration: clustersize=4096 created=2011-06-06 14:16:24 filesystem=ntfs state=clean
+              *-volume:1
+                   description: EXT4 volume
+                   vendor: Linux
+                   physical id: 2
+                   bus info: scsi@0:0.0.0,2
+                   logical name: /dev/sda2
+                   logical name: /
+                   version: 1.0
+                   serial: e4414cc4-2e68-42e7-aea7-9fe68606a088
+                   size: 10GiB
+                   capacity: 10GiB
+                   capabilities: primary journaled extended_attributes large_files huge_files dir_nlink recover extents ext4 ext2 initialized
+                   configuration: created=2011-06-09 13:12:12 filesystem=ext4 lastmountpoint=/ modified=2011-06-09 13:17:45 mount.fstype=ext4 mount.options=rw,relatime,errors=remount-ro,barrier=1,data=ordered mounted=2011-06-13 09:20:40 state=mounted
+              *-volume:2
+                   description: Windows NTFS volume
+                   physical id: 3
+                   bus info: scsi@0:0.0.0,3
+                   logical name: /dev/sda3
+                   version: 3.1
+                   serial: 0230c986-169f-2d4e-8f4f-7ef2b8329d0d
+                   size: 213GiB
+                   capacity: 213GiB
+                   capabilities: primary ntfs initialized
+                   configuration: clustersize=4096 created=2011-06-06 19:21:57 filesystem=ntfs label=backup state=clean
+           *-cdrom
+                description: DVD-RAM writer
+                product: DVD A DS8A5SH
+                vendor: Slimtype
+                physical id: 1
+                bus info: scsi@1:0.0.0
+                logical name: /dev/cdrom
+                logical name: /dev/cdrw
+                logical name: /dev/dvd
+                logical name: /dev/dvdrw
+                logical name: /dev/scd0
+                logical name: /dev/sr0
+                version: XS21
+                capabilities: removable audio cd-r cd-rw dvd dvd-r dvd-ram
+                configuration: ansiversion=5 status=nodisc
+        *-serial UNCLAIMED
+             description: SMBus
+             product: 5 Series/3400 Series Chipset SMBus Controller
+             vendor: Intel Corporation
+             physical id: 1f.3
+             bus info: pci@0000:00:1f.3
+             version: 05
+             width: 64 bits
+             clock: 33MHz
+             configuration: latency=0
+             resources: memory:fc806800-fc8068ff ioport:1840(size=32)
+        *-generic
+             description: Signal processing controller
+             product: 5 Series/3400 Series Chipset Thermal Subsystem
+             vendor: Intel Corporation
+             physical id: 1f.6
+             bus info: pci@0000:00:1f.6
+             version: 05
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi cap_list
+             configuration: driver=intel ips latency=0
+             resources: irq:18 memory:fc804000-fc804fff
+     *-pci:1
+          description: Host bridge
+          product: Core Processor QuickPath Architecture Generic Non-core Registers
+          vendor: Intel Corporation
+          physical id: 101
+          bus info: pci@0000:3f:00.0
+          version: 02
+          width: 32 bits
+          clock: 33MHz
+     *-pci:2
+          description: Host bridge
+          product: Core Processor QuickPath Architecture System Address Decoder
+          vendor: Intel Corporation
+          physical id: 102
+          bus info: pci@0000:3f:00.1
+          version: 02
+          width: 32 bits
+          clock: 33MHz
+     *-pci:3
+          description: Host bridge
+          product: Core Processor QPI Link 0
+          vendor: Intel Corporation
+          physical id: 103
+          bus info: pci@0000:3f:02.0
+          version: 02
+          width: 32 bits
+          clock: 33MHz
+     *-pci:4
+          description: Host bridge
+          product: Core Processor QPI Physical 0
+          vendor: Intel Corporation
+          physical id: 104
+          bus info: pci@0000:3f:02.1
+          version: 02
+          width: 32 bits
+          clock: 33MHz
+     *-pci:5
+          description: Host bridge
+          product: Core Processor Reserved
+          vendor: Intel Corporation
+          physical id: 105
+          bus info: pci@0000:3f:02.2
+          version: 02
+          width: 32 bits
+          clock: 33MHz
+     *-pci:6
+          description: Host bridge
+          product: Core Processor Reserved
+          vendor: Intel Corporation
+          physical id: 106
+          bus info: pci@0000:3f:02.3
+          version: 02
+          width: 32 bits
+          clock: 33MHz
+  *-battery
+       description: Lithium Ion Battery
+       product: Intel Corporation
+       vendor: Intel Corporation
+       physical id: 1
+       slot: Rear
+       capacity: 1000mWh
+       configuration: voltage=0.0V
+  *-remoteaccess UNCLAIMED
+       vendor: Intel
+       physical id: 2
+       capabilities: outbound
+  *-power UNCLAIMED
+       description: To Be Defined By O.E.M
+       product: To Be Defined By O.E.M
+       vendor: To Be Defined By O.E.M
+       physical id: 3
+       version: 2.50
+       serial: To Be Defined By O.E.M
+       capacity: 32768mWh
